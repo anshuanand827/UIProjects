@@ -1,0 +1,22 @@
+main{
+    width: 300px;
+    padding: 10px;
+    margin-left: 41%;
+}
+
+#num1-el, #num2-el{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-bottom: 2px solid rgb(209, 199, 199);
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#num1-el{
+    margin-left: 67px;
+}
+#sum-el{
+    margin-left: 80px;
+}
+
