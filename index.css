@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: cadetblue; */
+}
+#counter-card{
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #000;
+    color: white;
+}
+
+button{
+    padding: 5px;
+    width: 150px;
+    color: #fff;
+}
+
+#increment-btn{
+    background-color: blueviolet;
+}
+#save-btn{
+    background-color: red;
+}
+
+button:nth-of-type(1){
+    margin-bottom: 10px;
+}
